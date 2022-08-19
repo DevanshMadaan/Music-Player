@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(252, 223, 223);
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 80px;
+    background-color: rgb(53, 52, 52);
+    color:white;
+    align-items: center;
+
+}
+nav ul li{
+    padding: 0 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.logo h1{
+    width:220px;
+  /* padding: 0 10px;*/
+   
+}
+.logo{
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+.songsList{
+    cursor: pointer;
+    float: left;
+    position: sticky;
+    width:19%;
+background-color: black;
+color:white;
+height: 89vh;
+display: flex;
+flex-direction: column;
+margin: 2px 15px;
+overflow-y:auto;
+border-radius: 7px;
+}
+.container{
+    
+    height: 70vh;
+    background-color:black;
+    display: flex;
+    color: white;
+    width:75%;
+    margin: 25px 20px;
+    
+    border-radius: 10px;
+}
+.container img{
+    height: fit-content;
+    width: 100vw;
+}
+#setimg{
+  height: 100%;
+  width: 100%;
+}
+.bottom{
+height:100px;
+position: sticky;
+bottom: 0;
+background-color: black;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color:white;
+width: 76vw;
+float: right;
+margin-right: 3%;
+}
+#bar{
+    width: 75vw;
+
+}
+.icons{
+    color: white;
+
+}
+.icons img{
+    padding-top: 8px;
+    width:40px;
+    cursor: pointer;
+}
+.songItem img{
+    width: 45px;
+    border-radius: 30px;
+}
+.songItem{
+    height:50px;
+   display: flex;
+    color: #A9A9A9;
+    width:85%;
+    margin: 10px 5px;
+    justify-content: space-around;
+    cursor: pointer;
+    font-weight: bold;
+font-size: 17px ;
+    
+}
+
+.songItem :hover{
+    font-weight: bolder;
+    color: white;
+}
+
+.sName{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: lighter;
+    font-size: medium;
+}
+.songInfo{
+    position: absolute;
+    left:1vw;
+}
+
+.songTime{
+    position: absolute;
+    right: 1vw;
+}
+.music_bars{
+    
+    transition:opacity 1s ease-in-out; 
+}
+.forward-bt{
+    height: 27px;
+}
+.play-bt{
+    height: 30px;
+}
+.back-bt{
+    height: 27px;
+}

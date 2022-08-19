@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Spotify Clone</title>
+    </head>
+    <link rel="stylesheet" href="styles.css">
+<body>
+<nav>
+    <ul>
+        <li class="logo"><h1 style="font-family: Cascadia Code SemiBold">MusicPlayer</h1>
+        </li>
+    </ul>
+</nav>
+<div class="songsList">
+  <div class="songItem">
+<img src="coverpaths/image1.jpg" class="coverimg">
+<span class="sName">Believer-Imagine Dragons</span>
+<span><img src="music-bars-gif.gif" width="42px" id="1" alt="1" class="music_bars" style="opacity: 0 "></span>
+  </div>  
+  <div class="songItem">
+    <img src="coverpaths/image2.jpg" class="coverimg">
+    <span class="sName">Attention-Charlie Puth</span>
+    <span><img src="music-bars-gif.gif" width="42px" alt="1" id="2" class="music_bars" style="opacity: 0 "></span>
+      </div> 
+      <div class="songItem">
+        <img src="coverpaths/playing.webp" class="coverimg">
+        <span class="sName">Baby-Justin Bieber</span>
+        <span><img src="music-bars-gif.gif" width="42px" alt="1" id="3" class="music_bars" style="opacity: 0 "></span>
+          </div> 
+          <div class="songItem">
+            <img src="coverpaths/image4.jpg" class="coverimg">
+            <span class="sName">Excuses-AP Dhillon</span>
+            <span><img src="music-bars-gif.gif" width="42px" alt="1" id="4" class="music_bars" style="opacity: 0 "></span>
+              </div>
+              <div class="songItem">
+                <img src="coverpaths/image5.jpeg" class="coverimg">
+                <span class="sName">Insane-AP Dhillon</span>
+                <span><img src="music-bars-gif.gif" width="42px" alt="1" id="5"  class="music_bars" style="opacity: 0 "></span>
+                  </div>
+                  <div class="songItem">
+                    <img src="coverpaths/image6.jpeg" class="coverimg">
+                    <span class="sName">See You Again-Charlie Puth</span>
+                    <span><img src="music-bars-gif.gif" width="42px" alt="1" id="6" class="music_bars" style="opacity: 0 "></span>
+                      </div>
+                      <div class="songItem">
+                        <img src="coverpaths/playing.webp" class="coverimg">
+                        <span class="sName">Sorry-Justin Bieber</span>
+                        <span><img src="music-bars-gif.gif" width="42px" alt="1" id="7" class="music_bars" style="opacity: 0 "></span>
+                          </div>
+                          <div class="songItem">
+                            <img src="coverpaths/playing.webp" class="coverimg">
+                            <span class="sName">What Do You Mean-Justin Bieber</span>
+                            <span><img src="music-bars-gif.gif" width="42px" alt="1" id="8" class="music_bars" style="opacity: 0 "></span>
+                              </div>
+                              <div class="songItem">
+                                <img src="coverpaths/playing.webp" class="coverimg">
+                                <span class="sName">Treat You Better-Shawn Mendes</span>
+                                <span><img src="music-bars-gif.gif" width="42px" alt="1" id="9" class="music_bars" style="opacity: 0 "></span>
+                                  </div>
+                                  <div class="songItem">
+                                    <img src="coverpaths/playing.webp" class="coverimg">
+                                    <span class="sName">Girls Like You-Maroon 5</span>
+                                    <span><img src="music-bars-gif.gif" width="42px" alt="1" id="10" class="music_bars" style="opacity: 0 "></span>
+                                      </div>
+                                      <div class="songItem">
+                                        <img src="coverpaths/playing.webp" class="coverimg">
+                                        <span class="sName">Memories_Maroon 5</span>
+                                        <span><img src="music-bars-gif.gif" width="42px" alt="1" id="11" class="music_bars" style="opacity: 0 "></span>
+                                          </div>
+</div>
+<div class="container" id="ct">
+<img id="setimg">
+</div>
+<div class="bottom">
+    <input type="range" id="bar" name="range" value="0" min="0" max="100">  
+    <div class="icons">
+        <img src="rewind-movie_318-10987.png" class="back-bt" id="bwd">
+        <img src="playbutton.png" class="play-bt" id="play">
+        <img src="fast-forward-button_318-10190.png" class="forward-bt" id="fwd">
+    </div>
+    <div class="songInfo">
+        <p id="playingSong">Believer- Imagine Dragons</p>
+    </div>
+    <div class="songTime">
+      <p id="songDur">03:030</p>
+  </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+    </html>
